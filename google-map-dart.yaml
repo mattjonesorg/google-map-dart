@@ -1,3 +1,6 @@
 # Configuration for running tool/generate_dart_api.dart
 files_to_generate:
   - google-map/google-map.html
+  - google-map/google-map-search.html
+  - google-map/google-map-directions.html
+  
