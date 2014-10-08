@@ -8,3 +8,8 @@ files_to_generate:
 stubs_to_generate:
   google_apis_dart:
     - google-apis/google-apis.html
+deletion_patterns:
+  - metadata\.html$
+  - index\.html$
+  - bower\.json$
+  - ^google-apis

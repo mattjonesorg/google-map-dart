@@ -1,7 +1,7 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `google_map`.
-library core_elements.google_map;
+library google_map_dart.google_map;
 
 import 'dart:html';
 import 'dart:js' show JsArray, JsObject;

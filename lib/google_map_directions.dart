@@ -1,7 +1,7 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `google_map_directions`.
-library core_elements.google_map_directions;
+library google_map_dart.google_map_directions;
 
 import 'dart:html';
 import 'dart:js' show JsArray, JsObject;
