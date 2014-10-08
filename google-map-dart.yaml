@@ -1,6 +1,7 @@
 # config file to run pub run custom_element_apigen:update google-map-dart.yaml 
 package_mappings:
   - google-apis: google_apis_dart
+  - core-: core_elements
 files_to_generate:
   - google-map/google-map.html
   - google-map/google-map-search.html
