@@ -6,8 +6,8 @@ files_to_generate:
   - google-map/google-map-search.html
   - google-map/google-map-directions.html
 stubs_to_generate:
-  google_apis_dart:
-    - google-apis/google-apis.html
+#  google_apis_dart:
+#    - google-apis/google-apis.html
 deletion_patterns:
   - metadata\.html$
   - index\.html$
