@@ -8,7 +8,7 @@ dependencies:
   polymer: any
   core_elements: any
   google_apis:
-    path: ../google-apis/
+    git: git@github.com:mattjonesorg/google-apis-dart.git
 dev_dependencies:
   path: ">=1.0.0 <2.0.0"
 transformers:
