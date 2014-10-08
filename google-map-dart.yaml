@@ -9,7 +9,7 @@ files_to_generate:
   - google-map/google-map-directions.html
 
 stubs_to_generate:
-  google_apis_dart:
+  google_apis:
     - google-apis/google-apis.html
     - google-apis/google-client-api.html
     - google-apis/google-jsapi.html

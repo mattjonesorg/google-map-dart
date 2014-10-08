@@ -6,7 +6,6 @@
     "Matt Jones <github@mattjones.org>"
   ],
   "dependencies": {
-    "polymer": "polymer/polymer#0.4.1",
     "google-map": "google-map#0.3.1"
   },
   "license": "MIT",

@@ -2,17 +2,15 @@ name: google_map_dart
 version: 0.0.3
 author: Polymer.dart Authors <web-ui-dev@dartlang.org>
 description: Polymer google-map for Dart
-homepage: https://www.dartlang.org/polymer/
+homepage: https://github.com/mattjones.org/google-map-dart
 dependencies:
-  custom_element_apigen: ">=0.1.0 <0.2.0"
-  polymer: ">=0.14.0 <0.16.0"
-  core_elements: '>=0.3.0 <0.4.0'
-  google_apis_dart:
-    git: https://github.com/mattjonesorg/google-apis-dart.git
+  custom_element_apigen: any
+  polymer: any
+  core_elements: any
+  google_apis:
+    path: ../google-apis/
 dev_dependencies:
-  unittest: ">=0.11.0+2 <0.12.0"
-environment:
-  sdk: '>=1.6.0 <2.0.0'
+  path: ">=1.0.0 <2.0.0"
 transformers:
 - polymer:
     lint: false
