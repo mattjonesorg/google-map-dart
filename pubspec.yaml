@@ -1,7 +1,7 @@
-name: core_elements
-version: 0.3.0
+name: google_map_dart
+version: 0.0.1
 author: Polymer.dart Authors <web-ui-dev@dartlang.org>
-description: Polymer core-elements for Dart
+description: Polymer google-map for Dart
 homepage: https://www.dartlang.org/polymer/
 dependencies:
   custom_element_apigen: ">= 0.0.2 <0.1.0"
