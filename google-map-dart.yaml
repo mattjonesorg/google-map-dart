@@ -2,10 +2,20 @@
 package_mappings:
   - google-apis: google_apis_dart
   - core-: core_elements
+
 files_to_generate:
   - google-map/google-map.html
   - google-map/google-map-search.html
   - google-map/google-map-directions.html
+
+stubs_to_generate:
+  google_apis_dart:
+    - google-apis/google-apis.html
+    - google-apis/google-client-api.html
+    - google-apis/google-jsapi.html
+    - google-apis/google-maps-api.html
+    - google-apis/google-youtube-api.html
+    - google-apis/google-plusone-api.html
 
 deletion_patterns:
   - metadata\.html$
@@ -14,3 +24,4 @@ deletion_patterns:
   - ^core-
   - ^platform$
   - ^polymer$
+  - ^google-apis$
