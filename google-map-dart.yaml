@@ -1,6 +1,10 @@
-# Configuration for running tool/generate_dart_api.dart
+# config file to run pub run custom_element_apigen:update google-map-dart.yaml 
+package_mappings:
+  - google-apis: google_apis_dart
 files_to_generate:
   - google-map/google-map.html
   - google-map/google-map-search.html
   - google-map/google-map-directions.html
-  
+stubs_to_generate:
+  google_apis_dart:
+    - google-apis/google-apis.html
