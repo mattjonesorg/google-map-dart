@@ -14,3 +14,4 @@ deletion_patterns:
   - index\.html$
   - bower\.json$
   - ^google-apis
+  - ^core-

@@ -6,6 +6,7 @@ homepage: https://www.dartlang.org/polymer/
 dependencies:
   custom_element_apigen: ">=0.1.0 <0.2.0"
   polymer: ">=0.14.0 <0.16.0"
+  core_elements: '>=0.3.0 <0.4.0'
   google_apis_dart:
     git: https://github.com/mattjonesorg/google-apis-dart.git
 dev_dependencies:
